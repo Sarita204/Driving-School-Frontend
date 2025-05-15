@@ -1,0 +1,399 @@
+/* input.name_0 {
+  padding: 7px;
+  border: 1px solid #141619;
+  border-radius: 5px;
+  outline-width: 0;
+  font-size: 16px;
+}
+label {
+  font-size: 18px;
+  font-weight: 500;
+}
+.left-side {
+  background-color: #fcfcfc;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 660px;
+  top: 0px;
+  position: sticky;
+}
+
+.vi_0 {
+  border: 2px solid #dee2e6;
+  outline-width: 0px;
+  padding: 7px;
+  border-radius: 5px;
+  width: 99%;
+}
+.do-p {
+  font-size: 25px;
+  color: #141619;
+  font-weight: 600;
+  padding-bottom: 11px;
+}
+
+label {
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 
+  %),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.me-2 {
+  margin-right: 0.5rem !important;
+}
+.rounded-circle {
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.ad_exp {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.list-group-item {
+  background-color: white;
+  color: black;
+}
+.active-list {
+  background-color: #3b6f7c;
+  color: white;
+  border: 1px solid #3b6f7c;
+} */
+
+/* Web View Start */
+
+.myaccount-component {
+  display: flex;
+  padding: 20px 100px;
+}
+
+.profile-container {
+  box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65),
+    0 2px 6px 0 rgba(206, 206, 238, 0.54);
+  width: 30%;
+  height: 300px;
+}
+
+.profile-user {
+  width: 60%;
+  padding: 10px 0;
+  height: 200px;
+}
+
+.user-name {
+  padding: 10px 0;
+  margin: 0px;
+  text-align: center;
+}
+
+.location-container {
+  display: flex;
+  padding: 10px 95px;
+  gap: 6px;
+  margin: auto;
+  justify-content: flex-start;
+}
+
+.location-icon {
+  width: 20px;
+  height: 23px;
+}
+
+.location-name {
+  padding: 0px;
+  margin: 0px;
+}
+
+.profile-container-2 {
+  box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65),
+    0 2px 6px 0 rgba(206, 206, 238, 0.54);
+  width: 60%;
+  height: 300px;
+  margin: 0 0 0 30px;
+}
+
+.profile-content-display {
+  display: flex;
+  gap: 40px;
+}
+
+.profile-user-deatils {
+  text-align: left;
+  padding: 10px 0 0 40px;
+}
+
+.profile-user-title {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.profile-user-subtitle {
+  padding: 0;
+}
+
+.edit-change-button {
+  display: flex;
+  padding: 0 40px;
+  gap: 30px;
+}
+
+.edit-profile-details {
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.invoice-details{
+  display: flex;
+  height: 10rem;
+}
+/* Web View End */
+
+/* Mobile View Start */
+
+@media screen and (max-width:799px) {
+  .myaccount-component {
+    display: block;
+    padding: 20px;
+  }
+
+  .profile-container {
+    width: auto;
+  }
+  .invoice-details{
+    display: block;
+    height: auto;
+  }
+  .profile-container-2 {
+    width: auto;
+    margin: 0;
+  }
+  .profile-user-deatils {
+    padding: 10px 2px !important;
+    text-align: left;
+}
+/* .booked-pooja-img{
+  width: 100% !important;
+} */
+.first-box {
+padding: 5px 10px !important
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .profile-container {
+    height: auto;
+    width: auto;
+  }
+  
+}
+
+/* Mobile View End */
+
+/* Order Details  */
+
+/* Web View Start */
+
+.Booked-history-component {
+  padding: 10px 100px;
+}
+
+.Booked-history-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.booked-title {
+  padding: 5px 10px;
+  border: 1px solid rgb(255, 255, 255);
+  background: #080874;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.invoice-header {
+  flex: 1;
+}
+
+.first-box {
+  /* height: 15rem; */
+  /* padding: 5px 20px; */
+  background: #080874;
+  color: white;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.order-details {
+  flex: auto;
+  
+}
+.order-boxes{
+  border: 1px solid white;
+    border-radius: 10px;
+}
+
+.order-display {
+  border: 2px solid #080874;
+  display: flex;
+  padding: 16px 20px;
+  margin: 1px 0;
+  
+  border-radius: 15px 0px 1px 15px;
+}
+
+.booked-car-img {
+  width: 93px;
+  height: 62px;
+  border: 1px solid;
+  
+}
+
+.view-button {
+  display: flex;
+  justify-content: center;
+}
+
+.view {
+  padding: 3px 16px;
+  text-decoration: underline !important;
+  background: #080874 !important;
+  border: none !important;
+  color: white;
+}
+
+.modal-logo {
+  width: 40%;
+  height: 150px;
+  display: flex;
+}
+
+.download {
+  /* background: purple !important; */
+  background: #080874 !important;
+  border: none;
+  color: white;
+}
+
+/* Web View End */
+
+/* Mobile View Start */
+
+@media screen and (max-width: 799px) {
+  .Booked-history-component {
+    padding: 10px;
+  }
+
+  .order-details h5 {
+    font-size: 12px;
+  }
+
+  .order-details p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .order-details-container {
+    display: block;
+  }
+
+  .table {
+    display: grid;
+  }
+  .order-display {
+    display: block;
+    padding: 5px 10px;
+  }
+  .profile-content-display {
+    display: flex;
+    gap: 20px !important;
+    padding: 0px 10px !important;
+}
+}
+
+/* Mobile View End */
+
+
+/* review modal  */
+
+.comment-box {
+padding: 5px
+}
+
+.comment-area textarea {
+resize: none;
+border: 1px solid #080874
+}
+
+.form-control:focus {
+color: black;
+border-color: black;
+outline: 0;
+box-shadow: 0 0 0 1px #080874 !important
+}
+
+.send {
+color: white;
+background-color: #080874;
+border-color: #080874
+}
+
+.send:hover {
+color: white;
+background-color: #080874;
+border-color: #080874
+}
+
+.rating {
+display: inline-flex;
+margin-top: -10px;
+flex-direction: row-reverse;
+
+
+}
+
+.rating>input {
+display: none
+}
+
+.rating>label {
+position: relative;
+width: 28px;
+font-size: 35px;
+color: #080874;
+cursor: pointer;
+}
+
+.rating>label::before {
+content: "\2605";
+position: absolute;
+opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+opacity: 0.4
+}
+.modal-dialog .modal-dialog-centered{
+  margin: 0px !important;
+}

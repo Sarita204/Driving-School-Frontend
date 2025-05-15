@@ -1,0 +1,558 @@
+.slider-img {
+  width: 100%;
+  height: 450px;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+.sbdfs{
+  display: flex;
+  text-align: center;
+}
+
+.way_0{
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0px;
+}
+
+.text-content  h2{
+  font-size: 65px !important;
+  font-weight: 900;
+  text-align: left;
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 0%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+  top: 30% !important;
+  right: 40% !important;
+}
+
+.slider-btn{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 10px;
+}
+.arrowicon{
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  margin: 30px 0;
+}
+.fare_type {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+}
+
+.fixed-icon {
+  border: 1px solid white;
+  float: right;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: flex-end;
+  top: 35%;
+  right: 10px;
+  background: navy;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+.sliders-btn{
+  border: 1px solid white !important;
+  background: navy !important;
+  color: white !important;
+  font-weight: bold !important;
+  width: 120px !important;
+}
+
+/* second componets  */
+.hgfhg{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%;
+  margin: 30px 0;
+  background: navy !important;
+  color: white !important;
+}
+
+.fgfgf{
+  display: flex;
+}
+.wdnj{
+  border: 1px solid navy;
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+  margin: auto;
+  padding: 5px 10px;
+}
+.cards{
+  padding: 10px 20px;
+  background: navy !important;
+  color: white !important;
+  border-bottom: 10px solid green !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ctitle{
+  text-align: center;
+  color: white !important;
+}
+.circle{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  text-align: center;
+}
+
+.vehical-icon{
+  font-size: 100px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 13px auto;
+}
+.title{
+  text-align: center;
+  padding: 10px 0;
+  
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 8px 0;
+  color: navy;
+}
+.multicolortext {
+  text-align: center !important;
+  font-size: 35px !important;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  padding: 10px 0px 8px 0px !important;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center !important;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0 !important;
+}
+
+.multicolortext2{
+  text-align: center !important;
+  font-size: 35px !important;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  padding: 10px 0px 8px 0px !important;
+  background-image: linear-gradient(to left, rgb(15, 119, 216), green, navy);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center !important;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0 !important;
+}
+.filter-btns{
+  background:navy !important;
+  color: White !important;
+  width: 120px !important;
+  margin: 0 10px !important;
+  border: 1px solid white;
+  font-weight: bold !important;
+}
+
+.filter-btns:hover{
+  background:white !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
+.car-img{
+  width: 100%;
+  height: 100%;
+}
+
+.navigat{
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 165px;
+}
+
+.cotent-card{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%;
+
+}
+
+.ul-text{
+  font-size: 17px;
+  line-height: 30px;
+  color: black;
+}
+.ul-text ul{
+  padding: unset !important;
+}
+
+.booknow-btn{
+  border: 1px solid black !important;
+  background: white !important;
+  color: color !important;
+  font-weight: bold !important;
+  width: 120px !important;
+}
+
+.enquiry-btn{
+  border: 1px solid white !important;
+  background: navy !important;
+  color: white !important;
+  font-weight: bold !important;
+  width: 120px !important;
+}
+
+.call-btn{
+  border: 1px solid white !important;
+  background: navy !important;
+  color: white !important;
+  font-weight: bold !important;
+  width: 120px !important;
+}
+
+.whatsapp-btn{
+  border: 1px solid black !important;
+  background: white !important;
+  color: black !important;
+  font-weight: bold !important;
+  width: 120px !important;
+}
+.book-enquiry-btns{
+  display: flex;
+  justify-content: space-between;
+}
+.buton{
+  margin: 8px 0px;
+}
+
+.about-content{
+  padding: 0px 150px;
+}
+
+.about-display h3{
+  font-size: 35px ;
+  text-align: center !important;
+  padding: 10px 0;
+  font-weight: bold;
+  color: navy;
+  justify-content: center;
+  display: inline !important;
+}
+
+/* testimonials  */
+.containers{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 100%;
+  margin: 30px 0;
+}
+
+.about-container span{
+  text-align: center !important;
+  align-items: center !important;
+  margin: auto !important;
+  justify-self: center !important;
+}
+.review-img{
+  width: 150px;
+  height: 200px;
+}
+
+
+/* second banner cards starts  */
+.rating-display {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  align-items: center;
+  text-align: center;
+  align-items: baseline;
+}
+
+.rating-display p {
+  color: white !important;
+}
+
+#cards_landscape_wrap-2 a {
+  text-decoration: none;
+  outline: none;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box {
+  background: #ffffff;
+  overflow: hidden;
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); */
+  box-shadow: 2px 0px 14px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  width: 100px;
+  height: 115px;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+  opacity: 0.7;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box {
+  text-align: center;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+  padding: 0px 0px 10px 0px;
+  height: 100%;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  background: #ffffff;
+  margin: 0px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+  /* height: 100%; */
+  height: 355px;
+  width: 280px;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover {
+  background: #fff;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box p {
+  font-size: 16px;
+  /* color: #000000; */
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box h6 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* color: #ff4700e6; */
+  /* background-image: linear-gradient(to left, gray, red, #ff4700e6); */
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: white;
+  padding: 10px 0 0 0;
+}
+
+.text-box p {
+  color: #000000;
+}
+
+.conetct-dipl {
+  padding: 10px 35px;
+}
+
+.conetct-dipl p {
+  text-align: left;
+}
+
+.img-practice {
+  width: 100%;
+  height: 250px;
+}
+
+/* .text-box:hover {
+    color: white !important;
+    background: #013566;
+  } */
+
+/* .text-box :hover {
+    color: white !important;
+  } */
+#cards_landscape_wrap-2 .card-flyer {
+  background-color: navy;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover {
+  background-color: gray;
+}
+
+.text-container h6:hover {
+  color: white !important;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container p:hover {
+  color: white !important;
+}
+
+.homepage-service-img {
+  width: 100px;
+  height: 115px;
+}
+
+/* .text-box p, .text-container h6, p:hover{
+      color: white !important;
+    
+    }
+    .text-box .text-container h6,p {
+      color: #000000 ;
+    } */
+
+/* Cards end */
+.servic-container {
+  /* width: 100%; */
+  /* background-image: url("../../public/Assets/servicebg.png"); */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cate-0 {
+  /* padding-top: 55px; */
+  padding-bottom: 0px;
+}
+
+.service-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media only screen and (max-width:799px){
+  .text-content h2{
+    font-size: 22px !important;
+  }
+
+  .container{
+    padding: 0px 10px !important;
+  }
+  .slider-img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.carousel-caption {
+  right: 20% !important;
+}
+.multicolortext{
+  font-size: 25px !important;
+}
+.filter-btns {
+  margin: 0px 2px !important;
+}
+.buton{
+  display: flex;
+}
+
+.sbdfs {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+.about-content{
+  padding: 10px 20px;
+}
+
+.hgfhg{
+  display: block !important;
+}
+.fgfgf{
+  display: block !important;
+}
+.wdnj{
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+.b{
+  text-align: center;
+}
+
+
+/* over-zooimg img crds  */
+.about-display {
+  /* padding: 5px 10px; */
+}
+
+.service-cards {
+  display: block;
+  /* margin: 10px; */
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  width: 75% !important;
+  height: 100%;
+ padding: 0 0 6px 0;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+  width: 80px;
+  height: 80px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+  height: auto;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.about-display-container1 {
+  display: block;
+  padding: 0 !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+  display: none;
+}
+}
+
+.text-center{
+  width: 300px;
+}

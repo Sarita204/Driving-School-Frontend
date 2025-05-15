@@ -1,0 +1,62 @@
+.log-0{
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.login-btn{
+    background: navy !important;
+    color: white;
+    width: 100%;
+}
+.login-bg{
+    background-image: url("../../public/Assets/login-bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 35px;
+}
+
+.register-bg{
+    background-image: url("../../public/Assets/register-bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding: 5px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-dif{
+    padding: 25px 45px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: white;
+    position: relative;
+    border-top-left-radius: 101px;
+}
+.input-log{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    padding: 10px 10px; 
+    width:100%; 
+}
+
+@media screen and (max-width: 799px) {
+    .urban-0{
+        width: 100% !important; 
+    }
+    .login-bg{
+        padding: 5px !important;
+    }
+    .register-bg{
+        height: 828px !important;
+    }
+    .login-bg{
+        height: 614px !important;
+    }
+}
+    

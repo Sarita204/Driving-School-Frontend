@@ -1,0 +1,48 @@
+.bg-img{
+    background-image: url('../../public/Assets/aboutbg.png');
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headding{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 100px 0;
+    font-weight: bold;
+}
+
+.about-display h3{
+    font-size: 35px ;
+    text-align: center !important ;
+    padding: 10px 0;
+    font-weight: bold;
+    color: navy;
+    justify-content: center;
+    display: inline !important;
+  }
+@media screen and (max-width: 799px) {
+
+    .bg-img{
+        height: 125px !important;
+    }
+
+    .about-title{
+        font-size: 22px !important;
+        text-align: left !important;
+        padding: 0 18px;
+        font-weight: bold;
+        color: navy;
+      }
+      
+.about-display h3{
+    font-size: 22px !important;
+    text-align: left !important;
+    padding: 12px 18px !important;
+    font-weight: bold;
+    color: navy;
+    margin: 0 !important;
+  }
+}
